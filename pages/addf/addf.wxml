@@ -1,0 +1,3 @@
+<!--pages/addf/addf.wxml-->
+<button class="bt1" bindtap="add1">添加解忧</button>
+<button class="bt2" bindtap="add2">添加杂货</button>

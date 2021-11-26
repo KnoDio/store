@@ -1,0 +1,7 @@
+<image class="pic" src="http://8.130.175.220:8081/ph/登录.jpg"></image>
+<form bindsubmit="adduser">
+    <input class="username" name="1" placeholder="用户名称" />
+    <input class="passport" name="2" placeholder="用户密码" />
+    <button class="button" form-type="submit">注册</button>
+</form>
+<view wx:if="{{iss}}" class="text">用户名已使用</view>

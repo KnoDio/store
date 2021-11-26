@@ -1,0 +1,11 @@
+<view class="things">
+  <view wx:for="{{image}}" class="box" wx:for-index="index" data-index="{{index}}" bindtap="tap">
+    <view class="photo">
+      <image style="width: 100%;height: 100%;" src="{{item.picture}}"></image>
+    </view>
+    <view class="text">
+      <text>{{item.name}}</text>
+    </view>
+    <view class="del" data-index="{{index}}" bindtap="deltap">删除</view>
+  </view>
+</view>

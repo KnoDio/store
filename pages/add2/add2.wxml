@@ -1,0 +1,11 @@
+<!--pages/add2/add2.wxml-->
+<form bindsubmit="formsubmit" bindreset="formReset">
+    <view class="inputbar">
+        <view class="text">标题:</view>
+        <input style="width: 450rpx; margin-top: 6rpx; margin-left: 0rpx; height: 80rpx; display: block; box-sizing: border-box" name="1" placeholder="请输入标题" bindinput="getmessage"/>
+    </view>
+    <view class="section">
+        <textarea auto-focus="true" name="3" placeholder="在这里输入详细描述宝贝的转手原因、入手渠道、规格尺寸、新旧程度和使用感受吧~"></textarea>
+    </view>
+    <button class="but" form-type="submit">发布</button>
+</form>

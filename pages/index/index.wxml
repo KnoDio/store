@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="top">
+  <input value="{{inputValue}}" class="search-input" bindinput="onInput" placeholder="搜索" />
+  <view class="search-button" bindtap="tapselect">搜索</view>
+</view>
+
+<swiper style="width: 100%; height: 300rpx;" autoplay="true" interval="2000" circular="true">
+  <swiper-item>
+    <image style="width: 100%; height: 300rpx;" src="http://8.130.175.220:8081/ph/解忧1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image style="width: 100%; height: 300rpx;" src="http://8.130.175.220:8081/ph/解忧4.jpg"></image>
+  </swiper-item>
+</swiper>
+
+<view class="goods">
+  <view wx:for="{{image}}" class="box" wx:for-index="index" data-index="{{index}}" bindtap="tap">
+    <image class="photo" src="{{item.picture}}"></image>
+    <view>
+      <view class="text">{{item.name}}</view>
+    </view>
+    <view class="price">￥{{item.price}}</view>
+  </view>
+</view>

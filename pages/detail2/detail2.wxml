@@ -1,0 +1,14 @@
+
+<view class ="title" style="position: fixed; left: 16rpx; top: 70rpx; width: 716rpx; height: 344rpx; display: block; box-sizing: border-box">
+  <text style="position: fixed; bottom: 56%; font-weight: bold; left: 38rpx; font-size: 30px; top: 113rpx; width: 670rpx; height: 274rpx; display: block; box-sizing: border-box">{{image.helpmessage}}</text>
+ 
+</view>
+<view  wx:for="{{resmessage}}" >
+ <view class="section" style="position: relative; left: -29rpx; top: 468rpx; width: 716rpx; height: 72rpx; display: block; box-sizing: border-box">
+ <text style="position:relative;left:5%;top:20%">{{item.resmessage}}</text> 
+ </view>
+</view>
+<view class="up" style="position: fixed; left: 45rpx; top: 1340rpx; width: 662rpx; height: 72rpx; display: block; box-sizing: border-box">
+<textarea value="{{e}}" bindinput="getres" style="width: 220rpx; height: 80rpx; display: block; box-sizing: border-box; left: 24rpx; top: 15rpx; position: relative" placeholder="写评论"></textarea>
+<view class="send-button" bindtap="send">发送</view>
+</view>

@@ -1,0 +1,50 @@
+page{
+    background: #f2f2f2;
+}
+.inputbar{
+    background: #ffffff;
+    height: 100rpx;
+    display: flex;
+    font-size: 45rpx;
+    margin-top: 35rpx;
+    align-items: center;
+}
+.text{
+    width: 28%;
+    margin-left: 20rpx;
+}
+.section{
+    font-size: 40rpx;
+   margin-top: 50rpx;
+    height: 300rpx;
+    background-color: #ffffff;
+}
+.upload{
+    width: 100%;
+    font-size: 50rpx;
+    background-color: red;
+    height: 80rpx;
+    text-align: center;
+    justify-items: center;
+}
+.add{
+    margin-top: 50rpx;
+    height: 300rpx;
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height: 250rpx;
+    width: 250rpx;
+}
+.arrayimg{
+    height: 250rpx;
+    width: 250rpx;
+}
+.but{
+    margin-top: 50rpx;
+    background-color:#F08080;
+}

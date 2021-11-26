@@ -1,0 +1,12 @@
+/* pages/detail/detail.wxss */
+page{
+  background: #e9e8e8;
+}
+.section {
+  height: 80rpx;
+  width: 100%;
+  position: fixed;
+  bottom: 32%;
+  border-radius: 50rpx;
+  background-color:white;
+}

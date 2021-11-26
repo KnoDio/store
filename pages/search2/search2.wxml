@@ -1,0 +1,7 @@
+<view class="things">
+  <view wx:for="{{image}}" class="box" wx:for-index="index" data-index="{{index}}" bindtap="tap">
+    <view class="text">
+      <text>{{item.helpmessage}}</text>
+    </view>
+  </view>
+</view>

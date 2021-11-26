@@ -1,0 +1,9 @@
+/* pages/addf/addf.wxss */
+.bt1{
+    margin-top: 500rpx;
+    background-color: #F08080;
+}
+.bt2{
+    margin-top: 50rpx;
+    background-color: #F08080;
+}

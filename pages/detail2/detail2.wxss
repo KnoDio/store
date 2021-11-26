@@ -1,0 +1,50 @@
+/* pages/detail2/detail2.wxss */
+page{
+    background: #f5f1f1;
+  }
+  .title {
+    height: 80rpx;
+    width: 100%;
+    position: fixed;
+    bottom: 32%;
+    border-radius: 50rpx;
+    background-color:white;
+  }
+  .section {
+    height: 20rpx;
+    width: 100%;
+    top:auto;
+    border-radius: 50rpx;
+    background-color:white;
+    white-space:pre-wrap;
+    word-break: break-all;
+    position:relative;
+    left: 20rpx; 
+    top: 472rpx;
+    width: 716rpx;
+    height: 80rpx; 
+    display: block;
+    box-sizing: border-box;
+    margin:30rpx;
+    align-items: center;
+    margin-left:45rpx;
+  }
+  .up{
+    position: fixed;
+    bottom: 0%;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border-radius: 50rpx;
+  }
+  .send-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 80rpx;
+    margin-top: -80rpx;
+    margin-left: 81%;
+    font-size: 110%;
+    color: rgb(143, 155, 155);
+  }

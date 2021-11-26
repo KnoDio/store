@@ -1,0 +1,8 @@
+<image class="pic" src="http://8.130.175.220:8081/ph/登录.jpg"></image>
+<form bindsubmit="loginuser">
+    <input class="username" name="1" placeholder=" 用户名" />
+    <input class="passport" name="2" placeholder=" 密码" />
+    <button class="button" form-type="submit">登录</button>
+</form>
+<button class="button2" bindtap="switchTab">注册</button>
+<view class="text" wx:if="{{iserror}}">用户名错误或密码错误</view>

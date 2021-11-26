@@ -1,0 +1,27 @@
+<view class="price">
+  <text style="position: fixed; bottom: 76%; color: red; font-weight: bold; font-size: 30px; left: 46rpx; top: 693rpx">￥</text>
+  <text style="width: 246rpx; height: 50rpx; display: block; box-sizing: border-box; position: fixed; bottom: 80%; font-size: 40px; left: 156rpx; color: red; top: 668rpx">{{item.price}}</text>
+</view>
+<view class="title">
+  <text style="position: fixed;bottom: 56%;font-weight:bold;left: 30rpx;font-size: 40px">{{item.name}}</text>
+</view>
+<view class="detail">
+  <text style="position: fixed; bottom: 65%; color: red; font-weight: bold; width: 29rpx; height: 42rpx; display: block; box-sizing: border-box; left: 44rpx; top: 786rpx;font-size: 30px">丨</text>
+  <text style="position: fixed; bottom: 65%; left: 100rpx; top: 792rpx; font-weight: bold; font-size: 25px">商品详细</text>
+</view>
+<view class="section" style="width: 700rpx; height: 560rpx; display: block; box-sizing: border-box; left: 26rpx; top: 906rpx; position: fixed">
+  <text style="position: fixed; bottom: 32%; left: 57rpx; width: 654rpx; height: 468rpx; display: block; box-sizing: border-box; top: 920rpx; font-size: 20px">{{item.details}}</text>
+</view>
+<view class="picture">
+  <swiper style="width: 100%; height: 900rpx;">
+  <swiper-item style="width: 750rpx; height: 600rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+    <image style="width: 100%; top: 0rpx; position: fixed; left: 0rpx"  src="{{item.picture}}"></image>
+  </swiper-item>
+  <swiper-item>
+    <image style="width: 100%; top: 0rpx; position: fixed; left: 0rpx"  src="{{item.picture2}}"></image>
+  </swiper-item>
+  <swiper-item>
+    <image style="width: 100%; top: 0rpx; position: fixed; left: 0rpx"  src="{{item.picture3}}"></image>
+  </swiper-item>
+</swiper>
+</view>

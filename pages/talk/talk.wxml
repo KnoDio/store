@@ -1,0 +1,3 @@
+<button bindtap='found'>创建连接</button>
+<button bindtap='send'>发送内容</button>
+<button bindtap='shut'>关闭连接</button>

@@ -1,0 +1,20 @@
+<form bindsubmit="formsubmit" bindreset="formReset">
+    <view class="inputbar">
+        <view class="text">商品名称:</view>
+        <input style="width: 450rpx; margin-top: 6rpx; margin-left: 40rpx; height: 80rpx; display: block; box-sizing: border-box" name="1" placeholder="请输入商品名称" />
+    </view>
+    <view class="inputbar">
+        <text class="text">价格:</text>
+        <input style="width: 60%;margin-top: 6rpx; margin-left: 40rpx; height: 80rpx;" name="2" placeholder="请输入商品价格" />
+    </view>
+    <view class="section">
+        <textarea auto-focus="true" name="3" placeholder="在这里输入详细描述宝贝的转手原因、入手渠道、规格尺寸、新旧程度和使用感受吧~"></textarea>
+    </view>
+    <view bindtap="chooseimage" class="add">
+        <image wx:if="{{isselect}}" class="img" src="http://8.130.175.220:8081/ph/添加照片.png"></image>
+        <view wx:for="{{tempFilePaths}}">
+            <image src="{{item}}" class="arrayimg" />
+        </view>
+    </view>
+    <button class="but" form-type="submit">发布</button>
+</form>
