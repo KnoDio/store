@@ -1,0 +1,84 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/login/login",
+                    "pathName": "pages/login/login",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/regist/regist",
+                    "pathName": "pages/regist/regist",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/index/index",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/add/add",
+                    "pathName": "pages/add/add",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/index2/index2",
+                    "pathName": "pages/index2/index2",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/detail/detail",
+                    "pathName": "pages/detail/detail",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/my/my",
+                    "pathName": "pages/my/my",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/uploaded/uploaded",
+                    "pathName": "pages/uploaded/uploaded",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/addf/addf",
+                    "pathName": "pages/addf/addf",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/add2/add2",
+                    "pathName": "pages/add2/add2",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/talk/talk",
+                    "pathName": "pages/talk/talk",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

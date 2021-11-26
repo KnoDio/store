@@ -1,0 +1,64 @@
+{
+    "pages": [
+        "pages/login/login",
+        "pages/regist/regist",
+        "pages/index/index",
+        "pages/detail/detail",
+        "pages/search/search",
+        "pages/index2/index2",
+        "pages/detail2/detail2",
+        "pages/addf/addf",
+        "pages/add/add",
+        "pages/add2/add2",
+        "pages/my/my",
+        "pages/uploaded/uploaded",
+        "pages/password/password",
+        "pages/talk/talk",
+        "pages/search2/search2"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#FFE4E1",
+        "navigationBarTitleText": "解忧杂货铺",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#e2e2e2",
+        "selectedColor": "#F08080",
+        "borderStyle": "white",
+        "list": [
+            {
+                "selectedIconPath": "/image/杂货_副本.png",
+                "iconPath": "/image/杂货2_副本.png",
+                "pagePath": "pages/index/index",
+                "text": "杂货"
+            },
+            {
+                "selectedIconPath": "/image/解忧_副本.png",
+                "iconPath": "/image/解忧2_副本.png",
+                "pagePath": "pages/index2/index2",
+                "text": "解忧"
+            },
+            {
+                "selectedIconPath": "/image/添加1.png",
+                "iconPath": "/image/添加2.png",
+                "pagePath": "pages/addf/addf",
+                "text": "添加"
+            },
+            {
+                "selectedIconPath": "/image/消息3_副本.png",
+                "iconPath": "/image/消息4_副本.png",
+                "pagePath": "pages/talk/talk",
+                "text": "消息"
+            },
+            {
+                "selectedIconPath": "/image/我的3_副本.png",
+                "iconPath": "/image/我的4_副本.png",
+                "pagePath": "pages/my/my",
+                "text": "我的"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
